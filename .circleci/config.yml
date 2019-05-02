@@ -8,6 +8,8 @@ jobs:
           command: echo "building"
       - run:
           command: echo "testing"
+      - run:
+          command: echo "deploying"
 workflows:
   workflow1:
     jobs:
